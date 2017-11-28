@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="css/style.css">
+<h1>{{message}}</h1>
+<h1>{{form.title}}</h1>
+<form method="post" action="/new">
+<input type="hidden" name="dataStore" value="{{data}}" />
+{{{form.html}}}
+<input type="submit">
+</form>
